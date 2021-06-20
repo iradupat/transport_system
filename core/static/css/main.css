@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    /* background-color: red; */
+}
+#logo{
+    font-size: 40px;
+    color: #ED9D03;
+    font-family: 'Rozha One', serif;
+}
+#logo span{
+    color: #000;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Rozha One', serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 10%;
+}
+.banner{
+    content: "";
+    height: 77vh;
+    /* width: 100vw; */
+    /* margin-top: -20px; */
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: saturate(60%);
+    /* filter: brightness(70%); */
+    background-image: url('https://images.unsplash.com/photo-1591768793355-74d04bb6608f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRydWNrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+}
+
+.module{
+    /* position: relative; */
+}
+
+/* .banner::before{
+    content: "";
+    filter: saturate(60%);
+    filter: brightness(70%);
+    background-image: url('https://images.unsplash.com/photo-1591768793355-74d04bb6608f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRydWNrfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+
+} */
+
+.banner_text{
+    text-align: center;
+    height: 90%;
+    display: flex;
+    filter: saturate(100%) !important;
+    filter: brightness(100%) !important;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+.banner_text p{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Rozha One', serif;
+}
+
+.body{
+    /* padding-top: 2%; */
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+.body h4{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Rozha One', serif;
+}
+
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 280px;
+    cursor: pointer;
+}
+
+.card:active{
+    filter: brightness(0%);
+}
+
+.crad_img{
+    height: 249px;
+    width: 280px;
+}
+.crad_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.crad_details p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Rozha One', serif;
+}
+
+.footer{
+    margin-top: 30vh;
+    height: 15vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer i{
+    margin-left: 42px;
+    font-size: 30px;
+    color: #ED9D03;
+    cursor: pointer;
+}
